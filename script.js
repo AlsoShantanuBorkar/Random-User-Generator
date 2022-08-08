@@ -15,7 +15,7 @@ async function getUser(){
     
     imageDiv.setAttribute('src',user.picture.large)
     
-    favicon.setAttribute('href',user.picture.thumbnail);
+    // favicon.setAttribute('href',user.picture.thumbnail);
 
     nameDiv.innerHTML = `${user.name.title} ${user.name.first} ${user.name.last}`;
 
