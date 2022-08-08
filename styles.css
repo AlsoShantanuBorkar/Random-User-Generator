@@ -20,12 +20,13 @@ main{
     background: hsl(0, 0%, 100%);
     border-radius: 1rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    
 }
 
 main img{
-    width: 20rem;
+    width: 100%;
     border-radius: 1rem;
-    margin: .5rem;
+    
 }
 main div{
     margin: 1rem;
@@ -34,7 +35,6 @@ main div{
     font-size: 1.1rem;
 }
 main div span{
-    text-align: left;
     font-size: 1.3rem;
     font-weight: 400;
 
