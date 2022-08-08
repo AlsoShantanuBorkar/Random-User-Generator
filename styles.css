@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -16,7 +19,7 @@ body{
 main{
     background: hsl(0, 0%, 100%);
     border-radius: 1rem;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 main img{
@@ -27,7 +30,7 @@ main img{
 main div{
     margin: 1rem;
     text-align: left;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.1rem;
 }
 main div span{
