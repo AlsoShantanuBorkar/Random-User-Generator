@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(212, 45%, 89%);
+}
+
+main{
+    background: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+main img{
+    width: 20rem;
+    border-radius: 1rem;
+    margin: .5rem;
+}
+main div{
+    margin: 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+main div span{
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
