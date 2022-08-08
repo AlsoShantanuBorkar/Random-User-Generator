@@ -1,10 +1,10 @@
-const  nameDiv = document.querySelector('.name span')
-const  locationDiv = document.querySelector('.location span')
-const  emailDiv = document.querySelector('.email span')
-const  ageDiv = document.querySelector('.dob span')
-const  phoneDiv = document.querySelector('.phone span')
+const  nameDiv = document.querySelector('.name span');
+const  locationDiv = document.querySelector('.location span');
+const  emailDiv = document.querySelector('.email span');
+const  ageDiv = document.querySelector('.dob span');
+const  phoneDiv = document.querySelector('.phone span');
 const imageDiv = document.querySelector('.image');
-
+const favicon = document.querySelector('.favicon-set');
 
 async function getUser(){
     const response = await fetch("https://randomuser.me/api/");
@@ -15,6 +15,8 @@ async function getUser(){
     
     imageDiv.setAttribute('src',user.picture.large)
     
+    favicon.setAttribute('href',user.picture.thumbnail);
+
     nameDiv.innerHTML = `${user.name.title} ${user.name.first} ${user.name.last}`;
 
     locationDiv.innerHTML = user.location.country;
